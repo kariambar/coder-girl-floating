@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	font-family: 'Roboto'
+}
+/*Barra de menú*/
+header{
+	background-color: #F2F2F2;
+	height: 50px;
+}
+header .logo{
+	color: grey;
+	padding: 16px 6%;
+	float: left;
+	font-size: 1em;
+}
+.nav-bar{
+	float:right;
+	color:blue;
+	padding: 15px 20px;
+	margin-right: 20px;
+	display: inline-block;
+	font-size: 14px;
+}
+/*wellcome section*/
+.section-home{
+	background: url('../img/home.jpg');
+	background-size: cover;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 40px;
+	padding: 250px;
+}
+.section-home p{
+	font-size: 15px;
+	padding: 10px;
+	color: black;
+	margin-bottom: 20px;
+}
+.section-home .button{
+	background-color: #2341BD;;
+	border: 1px solid #2341BD;
+	color: white;
+	border-radius: 5px;
+	width: 100px;
+	height: 40px;
+}
+
+.btn{
+		background-color: blue;
+	border: 1px solid #0101DF;
+	color: white;
+	border-radius: 5px;
+	width: 70px;
+	height: 30px;
+	float: left;
+}
+
+#inscribete{
+	margin-left: 400px;
+	float: left;
+}
+/*hackathon section*/
+.hackathon{
+	background-color: #f1e308;
+}
+.hackathon img{
+	
+	height: 300px;
+	margin: 30px;
+	float: left;
+}
+.content{
+	margin: 60px;
+	text-align: center;
+	padding: 120px 0;
+}
+.content p{
+	text-align: left;
+	padding: 10px;
+}
+.content .button{
+	background-color: #2341BD;;
+	border: 1px solid #2341BD;;
+	float: left;
+	text-align: center;
+	border-radius: 5px;
+	width: 100px;
+	height: 30px;
+} 
+
+#button-hack{
+	margin: 0;
+}
+/*contact section*/
+.contact-image img{
+	float: left;
+	margin: 40px;
+	margin-bottom: 200px;
+}
+.float-img{
+	float: right;
+}
+.contact-info h1{
+	font-size: 2.5em;
+	margin: 30px;
+	text-align: left;
+}
+.contact-info .tittle{
+	font-weight: bolder;
+}
+
+
+input[type="text"]{
+	border-radius: 5px;
+	height: 20px;
+	width: 400px;
+	padding: 5px;
+	display: block;
+	margin: 20px;
+}
+textarea{
+	border-radius: 5px;
+	padding: 5px;
+	width: 400px;
+}
+.button{
+	background-color: blue;
+	border: 1px solid #0101DF;
+	color: white;
+	border-radius: 5px;
+	width: 70px;
+	height: 30px;
+	margin: 20px 450px; 
+	float: right;
+	margin-left:10px;
+}
+footer{
+	background-color: #61a3d0;
+	color: whitesmoke;
+	float: left;
+	width: 100%;
+	height: 60px;
+	display: inline-block;
+}
+footer p{
+	padding: 20px;
+}
+span{
+	color: yellow;
+}
